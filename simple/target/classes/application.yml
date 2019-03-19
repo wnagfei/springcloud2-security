@@ -1,0 +1,26 @@
+#security:
+#  oauth2:
+#    client:
+#      clientId: 233668646673605
+#      clientSecret: 33b17e044ee6a4fa383f46ec6e28ea1d
+#      accessTokenUri: https://graph.facebook.com/oauth/access_token
+#      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+##      userAuthorizationUri: http://passport.sso.com:8443/cas/oauth2.0
+#      tokenName: oauth_token
+#      authenticationScheme: query
+#      clientAuthenticationScheme: form
+#    resource:
+#      userInfoUri: https://graph.facebook.com/me
+
+security:
+  oauth2:
+    client:
+      clientId: 1100661
+      clientSecret: e65fa828bedf4a0392cf1e005921dab6
+      accessTokenUri: http://passport.sso.com:8443/cas/oauth2.0/accessToken
+      userAuthorizationUri: http://passport.sso.com:8443/cas/oauth2.0/authorize
+      tokenName: access_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+#    resource:
+#      userInfoUri: http://localhost:8080/user
